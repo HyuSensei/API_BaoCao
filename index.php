@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>API APP ĐỌC BÁO</h1>
-   <a href="api_newspaper-main/api">Báo Mới API</a>
+   <a href="api/">Báo Mới API</a>
 </body>
 </html>
