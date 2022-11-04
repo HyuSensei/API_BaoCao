@@ -1,3 +1,5 @@
+
+
 <?php 
 $HostName = "localhost";
 $DatabaseName = "newspaper";

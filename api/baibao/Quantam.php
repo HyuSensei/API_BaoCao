@@ -4,7 +4,7 @@ $conn = new mysqli($HostName, $HostUser, $HostPass, $DatabaseName);
 if ($conn->connect_error) {
  die("Loi ket noi: " . $conn->connect_error);
 } 
-$sql = "SELECT * FROM video WHERE category=N'Game'";
+$sql = "SELECT * FROM baibao WHERE chuyen_muc=N'Giải Tri'";
 $result = $conn->query($sql);
 if ($result->num_rows >0) {
  while($row[] = $result->fetch_assoc()) {
